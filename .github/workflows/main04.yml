@@ -9,3 +9,4 @@ jobs:
       - run: echo "helooo, this test from github action"
       - run: npm install
       - run: npm run cypress:googleVisit
+      - run: npm run cypress:ads
