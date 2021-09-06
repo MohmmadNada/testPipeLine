@@ -1,7 +1,7 @@
 name: GitHub
 on: [push]
 jobs:
-  test githib action:
+  testgithibaction:
     runs-on: ubuntu-latest
     steps:
       - run: echo "helooo, this test from github action"
