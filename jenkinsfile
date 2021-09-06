@@ -8,7 +8,12 @@ pipeline {
         }
         stage('run cypress test ') {
             steps {
-                sh 'npm run cypress:surePass'
+                sh 'npm run cypress:googleVisit'
+            }
+        }
+        stage('test ads in forbes') {
+            steps {
+                sh 'npm run cypress:ads'
             }
         }
     }
