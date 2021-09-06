@@ -1,0 +1,8 @@
+name: GitHub
+on: [push]
+jobs:
+  test githib action:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "helooo, this test from github action"
+      - run: npm run cypress:googleVisit
