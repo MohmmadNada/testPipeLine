@@ -1,1 +1,10 @@
-node { def mvnHome stage('install') { // for display purposes sh " npm i " } }
+pipeline {
+    agent any
+    stages { 
+        stage('Example') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
