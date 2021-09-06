@@ -1,0 +1,66 @@
+{
+    "allAds" : [
+        {
+            "slotId": ["top"],
+            "hero" : ["true"],
+            "pos": ["top"],
+            "topx": ["0"]
+        },
+        {
+            "slotId": ["topx-1"],
+            "pos": ["topx"],
+            "topx": ["1"]
+        },
+        {
+            "slotId": ["topx-2"],
+            "pos": ["topx"],
+            "topx": ["2"]
+        },
+        {
+            "slotId": ["topx-3"],
+            "pos": ["topx"],
+            "topx": ["3"]
+        },
+        {
+            "slotId": ["ntv-home"],
+            "pos": ["ntv-home"],
+            "strnativekey": ["QLWstPVbbpcwuyqK5ijhxZvL"]
+        }
+        ,{
+            "slotId": ["ntv-deskchannel-1" ],
+            "ntv-channel": ["money"],
+            "ntv-deskchannel": ["1"],
+            "pos": ["ntv-deskchannel"],
+            "strnativekey": ["e5tSBXbDmvyVwXbVB7dymzCc" ]
+        }
+        ,{
+            "slotId": ["ntv-deskchannel-2" ],
+            "ntv-channel": ["innovation"],
+            "ntv-deskchannel": ["2"],
+            "pos": ["ntv-deskchannel"],
+            "strnativekey": ["e5tSBXbDmvyVwXbVB7dymzCc" ]
+        }
+        ,{
+            "slotId": ["ntv-deskchannel-3" ],
+            "ntv-channel": ["lifestyle"],
+            "ntv-deskchannel": ["3"],
+            "pos": ["ntv-deskchannel"],
+            "strnativekey": ["e5tSBXbDmvyVwXbVB7dymzCc" ]
+        }
+        ,{
+            "slotId": ["ntv-deskchannel-4" ],
+            "ntv-channel": ["billionaires"],
+            "ntv-deskchannel": ["4"],
+            "pos": ["ntv-deskchannel"],
+            "strnativekey": ["e5tSBXbDmvyVwXbVB7dymzCc" ]
+        }
+        ,{
+            "slotId": ["ntv-deskchannel-5" ],
+            "ntv-channel": ["leadership"],
+            "ntv-deskchannel": ["5"],
+            "pos": ["ntv-deskchannel"],
+            "strnativekey": ["e5tSBXbDmvyVwXbVB7dymzCc" ]
+        }
+    ]
+    
+}

@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open:sypress:iphone": "cypress run ",
+    "cypress:open-test": "cypress run --spec \"cypress/integration/configPractice.js\" --browser chrome",
+    "cypressopen": "cypress open",
+    "cypress:moblie": "cypress open --config  userAgent=mobile",
+    "cypress:desktop": "cypress open --config  userAgent=desktop",
+    "cypress:ads":"cypress run --spec \"cypress/integration/countAds.js\" --browser chrome"
   },
   "repository": {
     "type": "git",
@@ -19,11 +25,15 @@
   "homepage": "https://github.com/MohmmadNada/simpsons3#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "cypress": "^8.3.1",
     "dotenv": "^9.0.2",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "method-override": "^3.0.0",
     "pg": "^8.6.0",
     "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "cypress-wait-until": "^1.7.1"
   }
 }
