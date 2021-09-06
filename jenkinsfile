@@ -8,7 +8,7 @@ pipeline {
         }
         stage('run cypress test ') {
             steps {
-                sh 'npm run cypress:ads'
+                sh 'npm run cypress:surePass'
             }
         }
     }
