@@ -1,1 +1,15 @@
-node { def mvnHome stage('install') { // for display purposes sh " npm i " } }
+pipeline {
+    agent any
+    stages { 
+        stage('installation ') {
+            steps {
+                sh 'npm install'
+            }
+        }
+        stage('run cypress test ') {
+            steps {
+                sh 'npm run cypress:ads'
+            }
+        }
+    }
+}
