@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "helooo, this test from github action"
-      - run: npm run cypress:googleVisit
+      - run: npm install
