@@ -1,0 +1,16 @@
+name: Cypress Tests From GitHub action 
+
+on:
+  push
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node14.17.0-chrome88-ff89
+    steps:
+       - name: Checkout
+         uses: actions/checkout@v1
+       - name: Headless Chrome
+         uses: cypress-io/github-action@v2
+         with:
+           install : npm install 
