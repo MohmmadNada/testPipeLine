@@ -1,0 +1,1 @@
+node { def mvnHome stage('install') { // for display purposes sh " npm i " } }
